@@ -1,0 +1,449 @@
+/* add your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Monda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Monda&family=Staatliches&display=swap');
+
+html {
+    background: linear-gradient(0deg, rgba(153,19,225,1) 0%, rgba(189,124,224,1) 20%, rgba(217,203,224,1) 40%, rgba(221,214,224,1) 50%, rgba(217,203,224,1) 60%, rgba(188,120,224,1) 80%, rgba(153,19,225,1) 100%);
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    max-width: 1700px;
+}
+
+/*section1*/
+#section1 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#paperTear1 {
+    position: absolute;
+    top: -350px;
+    left: -300px;
+}
+
+#grunge {
+    position: absolute;
+    top: -20%;
+
+}
+
+#navBar {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    z-index: 1;
+}
+
+#subSection11 {
+    position: relative;
+    background: #e0e0e0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 75vw;
+    height: inherit;
+}
+
+#musicShow {
+    margin: 10px;
+    position: relative;
+    left: 15%;
+    top: -15%;
+    z-index: 1;
+}
+
+#subtextMainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#stroke {
+    position: relative;
+    top: -10%;
+    left: 15%;
+}
+
+#stroke1 {
+    position: relative;
+}
+
+#home {
+    color: #9913e1;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#subtextContainer{
+    max-width: 50%;
+}
+
+.subtext1 {
+    background: #000000;
+    color: #e0e0e0;
+    padding: 3px 10px 3px 10px;
+    transform: rotate(-5deg);
+    margin: 0 10% 5px 0 ;
+}
+
+.subtext2 {
+    background: #9913e1;
+    color: #e0e0e0;
+    padding: 3px 10px 3px 10px;
+    transform: rotate(-3deg);
+    margin: 0 0 10px 10%;
+}
+
+p {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #000000;
+    width: 50%;
+    font-weight: 600;
+}
+
+#stroke2 {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+}
+
+/*subSection12*/
+#subSection12 {
+    background: #b565e0;
+    width: 25vw;
+    overflow: hidden;
+}
+
+#artist_singing {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.text-font {
+    font-family: Monda, sans-serif;
+}
+
+#section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #9913e1;
+    position: relative;
+    height: 30vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#subSection21 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#subSection22 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#subSection21Text {
+    margin: 0 5% 0 0;
+    width: 70%;
+    font-family: Staatliches, sans-serif;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-align: right;
+    font-size: 4rem;
+    z-index: 2;
+}
+
+#subSection22Text {
+    text-align: left;
+    font-size: 0.9rem;
+    width: 70%;
+    margin: 0;
+}
+
+#stroke3 {
+    position: absolute;
+    left: 0;
+    bottom: -10%;
+}
+
+#section2Button {
+    color: #e0e0e0;
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #9913e1;
+    border: 3px solid #e0e0e0;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#section2Button:hover {
+    background: #831adc;
+}
+
+
+#section3 {
+    background: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    height: 70vh;
+    width: 100%;
+}
+
+#paperTear2 {
+    position: absolute;
+    left: 0;
+    top: -60%;
+}
+
+#grunge1 {
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+
+#grunge2 {
+    position: absolute;
+    left: -100px;
+    top: 25%;
+}
+
+#stroke4 {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+#section3SubTextMainContainer {
+    position: absolute;
+    width: 90%;
+    bottom: 25%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section3SubTextMainContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section3SubTextMainContainer div p {
+    width: 80%;
+    padding: 1.5rem;
+    text-align: left;
+}
+
+#section3 p {
+    margin: 0;
+}
+
+/*section4*/
+
+#section4 {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.grid-container {
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 25% 75%;
+}
+
+.grid-item1 {
+    background: #e0e0e0;
+    width: 100%;
+}
+
+.grid-item2 {
+    background: #9913e1;
+}
+
+.grid-item3 {
+    background: #9913e1;
+}
+
+.grid-item4 {
+    background: #e0e0e0;
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 0;
+}
+
+#grid-item4-Container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+#grid-item4-Container h2 {
+    letter-spacing: 0.2rem;
+}
+
+#grid-item4-subContainer button {
+    color: #9913e1;
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    border: 3px solid #9913e1;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+#grid-item4-subContainer button:hover {
+    background: #9913e1;
+    color: #e0e0e0;
+}
+
+#grid-item4-subContainer {
+    display: flex;
+    z-index: 2;
+}
+
+#grid-item4-subContainer p {
+    text-align: justify;
+    width: 90%;
+    padding: .5rem 0 .5rem 0;
+}
+
+#artists1 {
+    object-fit: cover;
+}
+
+#reserveTicketsText {
+    margin: 0;
+    width: 100%;
+    font-family: Staatliches, sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+#stroke6 {
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    right: 20%;
+
+}
+
+#slideshow {
+    width: 140%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section5 {
+    height: 20vh;
+}
+
+#footer {
+    height: 70vh;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    background: #e0e0e0;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    z-index: 0;
+
+}
+
+#stroke7 {
+    position: absolute;
+    left: -10%;
+    bottom: -50%;
+    z-index: 1;
+}
+
+#paperTear3 {
+    position: absolute;
+    right: -600px;
+    bottom: -500px;
+    z-index: 1;
+}
+
+#footerContainer {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    z-index: 2;
+}
+
+#footerButton {
+    color: #9913e1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    border: 3px solid #9913e1;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#footerButton:hover {
+    background: #9913e1;
+    color: #e0e0e0;
+}
+
+#footerContainer section {
+    width: 25%;
+}
+
+#footerSection2, #footerSection3{
+    display: flex;
+    flex-direction: column;
+}
+
+#footerSection2 a, #footerSection3 a{
+    font-family: Monda, sans-serif;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+#footerSection2 h3, #footerSection3 h3{
+    margin: 0;
+    font-family: Monda, sans-serif;
+    padding: 0 0 .5rem .5rem;
+    cursor: pointer;
+}
