@@ -13,10 +13,23 @@
         <img id="grunge" src="images/Grunge.png">
         <nav id="navBar">
           <a href="#section1"><img id="logo" src="images/logo.png"></a>
-          <a id="home" class="text-font">HOME</a>
-          <a id="event" class="text-font">EVENT</a>
-          <a id="tickets" class="text-font">TICKETS</a>
-          <a id="about" class="text-font">ABOUT</a>
+          <div id="navBarMenuContainer" style="text-underline: none">
+            <a id="home" class="text-font" href="#section1">HOME</a>
+            <a id="event" class="text-font" href="#section2">EVENT</a>
+            <a id="tickets" class="text-font" href="#section4">TICKETS</a>
+            <a id="about" class="text-font" href="#footer">ABOUT</a>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">MENU</button>
+            <div class="dropdown-content">
+              <a href="#section1">HOME</a>
+              <a href="#section2">EVENT</a>
+              <a href="#section4">TICKETS</a>
+              <a href="#footer">ABOUT</a>
+            </div>
+          </div>
+
         </nav>
         <div>
           <img id="stroke" src="images/Stroke.png">
@@ -69,10 +82,10 @@
     <div id="section4">
       <div class="grid-container">
         <div class="grid-item1">
-          <img id="artists1" src="images/artists1.png">
+          <img id="artists1" src="images/artists1.png" style="object-fit: cover; width: 100%; height: 100%">
         </div>
-        <div class="grid-item2"><img src="images/artists2.svg" style="object-fit: cover; width: 100%; height: 100%"></div>
-        <div class="grid-item3"><img src="images/artists4.png" style="object-fit: cover"></div>
+        <div class="grid-item2"><img src="images/artists2.svg" style="object-fit: cover; width: 100%; height: 100%; opacity: 50%"></div>
+        <div class="grid-item3"><img src="images/artists4.png" style="object-fit: cover; height: 100%; width: 100%; opacity: 50%"></div>
         <div class="grid-item4">
 
           <div id="grid-item4-Container">
@@ -98,10 +111,6 @@
       </div>
     </div>
 
-<!--    <div id="section5">-->
-<!--      <img src="images/artists3.png">-->
-<!--    </div>-->
-    
     <footer id="footer">
       <img src="images/Stroke%20(7).png" id="stroke7">
       <img src="images/Paper_Tear%20(2).png" id="paperTear3">

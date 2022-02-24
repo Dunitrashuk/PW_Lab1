@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Monda&family=Staatliches&display=swap');
 
 html {
+    scroll-behavior: smooth;
     background: linear-gradient(0deg, rgba(153,19,225,1) 0%, rgba(189,124,224,1) 20%, rgba(217,203,224,1) 40%, rgba(221,214,224,1) 50%, rgba(217,203,224,1) 60%, rgba(188,120,224,1) 80%, rgba(153,19,225,1) 100%);
 }
 
@@ -41,9 +42,25 @@ body {
     height: 10%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
     z-index: 1;
+}
+
+.dropdown {
+    display: none;
+}
+
+#navBarMenuContainer {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navBarMenuContainer a {
+    text-decoration: none;
+    color: black;
 }
 
 #subSection11 {
@@ -83,7 +100,7 @@ body {
 }
 
 #home {
-    color: #9913e1;
+    color: #9913e1 !important;
     font-weight: 800;
     font-size: 20px;
 }
@@ -345,6 +362,7 @@ p {
 }
 
 #artists1 {
+    height: 100%;
     object-fit: cover;
 }
 
@@ -446,4 +464,346 @@ p {
     font-family: Monda, sans-serif;
     padding: 0 0 .5rem .5rem;
     cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    #subSection11 {
+        width: 100%;
+    }
+
+    #subSection12 {
+        display: none;
+    }
+
+    #section2Button {
+        width: 50%;
+    }
+
+    #subSection22Text {
+        width: 80%;
+    }
+
+    #reserveTicketsText {
+        font-size: 3.5rem;
+    }
+
+    #stroke6 {
+        width: 300px;
+    }
+}
+
+@media (max-width: 700px) {
+    #paperTear1 {
+        left: -330px;
+    }
+
+    #musicShow {
+        height: 180px;
+    }
+
+    #stroke1 {
+        height: 180px;
+    }
+
+    #subSection22Text {
+        font-size: .8rem;
+        width: 80%;
+    }
+
+    #subSection21Text {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    #stroke3 {
+        bottom: -20%;
+    }
+
+    #reserveTicketsText {
+        font-size: 2.8rem;
+    }
+
+    #grid-item4-subContainer p {
+        font-size: .8rem;
+    }
+
+    #grid-item4-subContainer button {
+        width: 80%;
+    }
+
+    #footerSection2 a, #footerSection3 a {
+        font-size: .8rem;
+    }
+
+    #footerSection2 h3, #footerSection3 h3 {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #navBarMenuContainer {
+        display: none;
+    }
+    /* Style The Dropdown Button */
+    .dropbtn {
+        background-color: #9913e1;
+        color: white;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        font-family: Monda, sans-serif;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        background-color: #9913e1;
+    }
+
+    #grid-item4-subContainer button {
+        width: 90%;
+    }
+
+    #reserveTicketsText {
+        font-size: 2.1rem;
+    }
+
+    #subtextMainContainer h3 {
+        font-size: .9rem;
+    }
+
+    #subtextMainContainer p {
+        width: 60%;
+    }
+
+    #footerSection1 img {
+        height: 50px;
+    }
+
+    #footerButton {
+        font-size: .7rem;
+    }
+
+    #stroke6 {
+        width: 250px;
+        top: 18%;
+    }
+
+    #stroke7 {
+        left: -20%;
+    }
+
+    #section2Button {
+        width: 70%;
+    }
+
+    #footerButton {
+        width: 110%;
+    }
+
+    #subSection21 {
+        width: 50%;
+    }
+
+    #subSection21Text {
+        font-size: 2.5rem;
+    }
+
+    #subSection22Text {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 500px) {
+    #musicShow {
+        height: 150px;
+    }
+
+    #paperTear1 {
+        left: -340px;
+    }
+
+    #stroke {
+        height: 180px;
+    }
+
+    #stroke1 {
+        height: 150px;
+    }
+
+    #stroke3 {
+        height: 140px;
+    }
+
+    #subtextMainContainer h3 {
+        font-size: .8rem;
+    }
+
+    #subtextMainContainer p {
+        margin-top: 40px;
+        font-size: .7rem;
+    }
+
+    #paperTear3 {
+        right: -700px;
+    }
+
+    #stroke4 {
+        height: 200px;
+    }
+
+    #stroke2 {
+        height: 50px;
+    }
+
+    #grid-item4-subContainer button {
+        width: 80%;
+    }
+
+    #section3SubTextMainContainer {
+        flex-direction: column;
+        top: 30%;
+    }
+
+    #section3SubTextMainContainer h3 {
+        font-size: .9rem;
+    }
+
+    #section3SubTextMainContainer div {
+        margin-bottom: 20px;
+    }
+
+    #footerSection1 {
+        display: none;
+    }
+
+    .grid-container {
+        grid-template-columns: 0% 100%;
+        grid-template-rows: 25% 75%;
+    }
+
+    #grid-item4-subContainer {
+        flex-direction: column;
+    }
+
+    #footerContainer {
+        width: 90%;
+        justify-content: space-evenly;
+    }
+
+    #footerSection2, #footerSection3 {
+        width: 50%;
+    }
+}
+
+@media (max-height: 750px) {
+    #subtextMainContainer h3 {
+        font-size: .7rem;
+    }
+
+    #subtextMainContainer p {
+        font-size: .7rem;
+    }
+
+    #stroke2 {
+        height: 50px;
+    }
+
+    #subSection21Text {
+        font-size: 2rem;
+    }
+
+    #subSection21 {
+        width: 40%;
+    }
+
+    #subSection22 {
+        width: 60%;
+    }
+
+    #subSection22Text {
+        width: 90%;
+        font-size: .6rem;
+    }
+
+    #section2Button {
+        width: 60%;
+        font-size: .7rem;
+        border: 2px solid #e0e0e0;
+    }
+
+    #section3SubTextMainContainer h3 {
+        font-size: .7rem;
+    }
+
+    #section3SubTextMainContainer div p {
+        font-size: .7rem;
+    }
+
+    #paperTear2 {
+        top: -70%;
+    }
+
+    #stroke4 {
+        height: 150px;
+    }
+
+    #stroke6 {
+        display: none;
+    }
+
+
+    #stroke7 {
+        left: -60%;
+    }
+
+    #grid-item4-subContainer p {
+        font-size: .7rem;
+    }
+
+    #grid-item4-subContainer button {
+        width: 80%;
+        border: 2px solid #9913e1;
+    }
+
+    #footerButton {
+        font-size: .6rem;
+        padding: 8px;
+        width: 110%;
+        border: 1px solid #9913e1;
+    }
 }
